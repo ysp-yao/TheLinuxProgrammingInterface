@@ -6,6 +6,7 @@ INCLUDE_DIRECTORIES(
   ./lib
 )
 
+add_subdirectory(lib)
 
 add_executable(
   e3_1
@@ -16,3 +17,11 @@ add_executable(
   e4_1
   e4_1.c
 )
+
+add_executable(
+  e4_2
+  e4_2.c
+)
+
+target_link_libraries(e4_2 utils)
+
