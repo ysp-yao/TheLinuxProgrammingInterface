@@ -25,3 +25,9 @@ add_executable(
 
 target_link_libraries(e4_2 utils)
 
+add_executable(
+  e5_2
+  e5_2.c
+)
+
+target_link_libraries(e5_2 utils)
