@@ -11,3 +11,7 @@ add_subdirectory(lib)
 
 add_subdirectory(5)
 add_subdirectory(6)
+
+
+
+add_subdirectory(test)
